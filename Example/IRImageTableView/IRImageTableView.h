@@ -9,12 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @protocol IRImageTableViewDelegate <NSObject>
-- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 @end
 
 @interface IRImageTableView : UIViewController <UITableViewDataSource,UITableViewDelegate>
-@property (strong, nonatomic) NSArray *datao;
-@property (nonatomic,retain) UITableView *tableView;
--(id) initWithTable:(UITableView*)tabla withData:(NSArray *)data;
-@property (weak, nonatomic) id <IRImageTableViewDelegate> delegate;
+@property (nonatomic, strong) NSArray *data;
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, weak) id <IRImageTableViewDelegate> delegate;
+
+- (id)initWithTable:(UITableView*)tabla withData:(NSArray *)data;
+
 @end

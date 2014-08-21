@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>002E1CC2-116F-44C0-A57D-5885F88C5D60</string>
+	<string>1286386D-8C1B-4F6A-A598-C290F506B40F</string>
 	<key>IDESourceControlProjectName</key>
 	<string>IRImageTableView</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>2DF2F940-E2EA-4012-B5A6-53B2B2E95C89</key>
-		<string>https://github.com/sideround/IRImageTableView.git</string>
+		<key>765D4478-B458-40ED-B74C-FFE6DD0D3426</key>
+		<string>git://github.com/YourDirectory/YourProject.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>IRImageTableView.xcodeproj/project.xcworkspace</string>
+	<string>Example/IRImageTableView.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>2DF2F940-E2EA-4012-B5A6-53B2B2E95C89</key>
-		<string>../..</string>
+		<key>765D4478-B458-40ED-B74C-FFE6DD0D3426</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/sideround/IRImageTableView.git</string>
+	<string>git://github.com/YourDirectory/YourProject.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2DF2F940-E2EA-4012-B5A6-53B2B2E95C89</string>
+	<string>765D4478-B458-40ED-B74C-FFE6DD0D3426</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>2DF2F940-E2EA-4012-B5A6-53B2B2E95C89</string>
+			<string>765D4478-B458-40ED-B74C-FFE6DD0D3426</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Example</string>
+			<string>Yes</string>
 		</dict>
 	</array>
 </dict>

@@ -36,7 +36,7 @@
 		A320576319A4575200A3C453 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A320576119A4575200A3C453 /* InfoPlist.strings */; };
 		A320576519A4575200A3C453 /* IRImageTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A320576419A4575200A3C453 /* IRImageTableViewTests.m */; };
 		A320577419A459E000A3C453 /* IRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A320577319A459E000A3C453 /* IRViewController.m */; };
-		A387764119A523CB0085DE53 /* IRImageTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A387764019A523CB0085DE53 /* IRImageTableView.m */; };
+		A3C1335C19A655AD00F4E793 /* IRImageTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C1335A19A655AD00F4E793 /* IRImageTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,8 +101,8 @@
 		A320576419A4575200A3C453 /* IRImageTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRImageTableViewTests.m; sourceTree = "<group>"; };
 		A320577219A459E000A3C453 /* IRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRViewController.h; sourceTree = "<group>"; };
 		A320577319A459E000A3C453 /* IRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRViewController.m; sourceTree = "<group>"; };
-		A387763F19A523CB0085DE53 /* IRImageTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRImageTableView.h; sourceTree = "<group>"; };
-		A387764019A523CB0085DE53 /* IRImageTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRImageTableView.m; sourceTree = "<group>"; };
+		A3C1335A19A655AD00F4E793 /* IRImageTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRImageTableView.m; path = ../../IRImageTableView/IRImageTableView.m; sourceTree = "<group>"; };
+		A3C1335B19A655AD00F4E793 /* IRImageTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRImageTableView.h; path = ../../IRImageTableView/IRImageTableView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,8 +215,8 @@
 		A320574019A4575200A3C453 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A387763F19A523CB0085DE53 /* IRImageTableView.h */,
-				A387764019A523CB0085DE53 /* IRImageTableView.m */,
+				A3C1335A19A655AD00F4E793 /* IRImageTableView.m */,
+				A3C1335B19A655AD00F4E793 /* IRImageTableView.h */,
 				A308A50919A51FE000518FCA /* SDWebImage */,
 				A320574119A4575200A3C453 /* IRImageTableView-Info.plist */,
 				A320574219A4575200A3C453 /* InfoPlist.strings */,
@@ -346,7 +346,7 @@
 				A320574A19A4575200A3C453 /* AppDelegate.m in Sources */,
 				A308A52E19A51FE000518FCA /* SDWebImageCompat.m in Sources */,
 				A308A53519A51FE000518FCA /* UIImage+GIF.m in Sources */,
-				A387764119A523CB0085DE53 /* IRImageTableView.m in Sources */,
+				A3C1335C19A655AD00F4E793 /* IRImageTableView.m in Sources */,
 				A308A53319A51FE000518FCA /* SDWebImagePrefetcher.m in Sources */,
 				A320574619A4575200A3C453 /* main.m in Sources */,
 				A308A53719A51FE000518FCA /* UIImage+WebP.m in Sources */,
